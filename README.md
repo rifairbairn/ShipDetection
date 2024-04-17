@@ -1,6 +1,6 @@
 # ShipDetection
 
-## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
+## NON-TECHNICAL EXPLANATION
 This project aims to automatically identify images that contain ships using advanced machine learning techniques. By analyzing satellite photos, we can determine the presence of ships, which has applications in maritime safety, traffic monitoring, and environmental studies. We use a technique known as deep learning, which allows the computer to recognize patterns and features in images that are indicative of ships.
 
 ## DATA
