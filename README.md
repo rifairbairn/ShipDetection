@@ -1,11 +1,12 @@
 # ShipDetection
 
 ## Non-technical Explanation
-This project aims to automatically identify images that contain ships using advanced machine learning techniques. By analyzing satellite photos, we can determine the presence of ships, which has applications in maritime safety, traffic monitoring, and environmental studies. We use a technique known as deep learning, which allows the computer to recognize patterns and features in images that are indicative of ships.
+This project aims to automatically identify images that contain ships using advanced machine learning techniques. By analysing satellite images, we can attempt to determine the presence of ships, which has applications in maritime safety, traffic monitoring, and environmental studies. We use a technique known as deep learning, which allows the computer to recognize patterns and features in images that are more likely to inidicate the presence of ships.
 
 ## Data
 The model is trained on the Airbus Ship Detection Dataset, which contains satellite images of ships. This dataset is publicly available and is often used for object detection challenges in the machine learning community. Each image is labeled to indicate whether or not it contains a ship, allowing the model to learn from these examples.
 
+See datasheet for more information: https://github.com/rifairbairn/ShipDetection/blob/main/Datasheet.md
 Source: Airbus Ship Detection Challenge on Kaggle (https://www.kaggle.com/competitions/airbus-ship-detection)
 
 ## Model
