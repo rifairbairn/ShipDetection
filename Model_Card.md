@@ -10,6 +10,7 @@
 
 ## Performance
 The model achieves an accuracy of 91% on the test set, which consists of randomly selected images from the original dataset that were not used during training. The performance metric used is binary classification accuracy, which measures the percentage of correctly predicted images out of the total number of images in the test set.
+
 ![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/736c4054-4a05-4b26-b876-2062baa6fa1c)
 
 ## Limitations
