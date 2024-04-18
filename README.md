@@ -13,13 +13,17 @@ Source: Airbus Ship Detection Challenge on Kaggle (https://www.kaggle.com/compet
 We utilize the ResNet50 model, a powerful deep neural network known for its effectiveness in image classification tasks. ResNet50 is chosen for its deep architecture and ability to learn rich feature representations for complex visual tasks. The model has been pre-trained on a large dataset (ImageNet) and fine-tuned on our specific ship detection dataset to tailor its capabilities to our needs.
 
 ## Hyperparameter Optimisation
-We optimized several hyperparameters, including the learning rate, batch size, and number of training epochs. The optimization was performed using a grid search approach, where we systematically tested combinations of parameters to find the best performing configuration. This method ensures that the model not only learns effectively but also generalizes well to new, unseen images.
+Due to the length of time taken to train the model, we only tried a handful of different hyperparameters. Given less time constraints we would have liked to use Bayesian Optimisation to find the best set of hperparameters. Including the learning rate, batch size and number of training epochs. This method ensures that the model not only learns effectively but also generalizes well to new, unseen images.
 
 ## Results
-The model achieved a high accuracy in detecting ships in satellite images, demonstrating its effectiveness for this task. The results indicate that the model can reliably distinguish between images with and without ships, which is crucial for practical applications. Here are some visualizations of the model predictions:
+The model achieved approximately 90% high accuracy in detecting ships in satellite images, demonstrating its effectiveness for this task. The results indicate that the model can reliably distinguish between images with and without ships, which is crucial for practical applications. Here are some visualizations of the model predictions:
 
-**Results here**
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/814082f1-b967-4c37-8140-5cb8f34e93e2)
 
-These insights help in refining the model further and in understanding the types of images where the model might need improvements.
+An investigation of the missclassified images suggests methods for dealing with particular weather features (glare, waves and clouds) would probably help to improve the model. 
 
+Examples of two false negatives with glare:
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/2be70f71-d185-44fe-8bca-7d572488f8b4)
 
+Examples of two false positives with difficult features:
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/57434f2c-bb8c-41eb-b4fc-bf35c6be7c58)
