@@ -15,7 +15,7 @@ Data Acquisition: The images are likely acquired from Airbus's satellites. Speci
 Sampling Strategy: The dataset is a sample of Airbus’s comprehensive satellite imagery data. The specific strategy for selecting these particular images might involve scenarios with higher probabilities of ship presence.
 Collection Time Frame: The exact time frame over which the images were collected is not specified.
 
-## Preprocessing/cleaning/labelling
+## Preprocessing
 Preprocessing Steps: The images were preprocessed by Airbus, including labeling the ships' locations in the images using segmentation masks.
 Raw Data: Only the processed images with annotations are provided in the dataset for use in the competition.
 
