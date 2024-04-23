@@ -24,8 +24,9 @@ The higher recall (97%) versus precision (85%), indicates a slight tendency to p
 
 An investigation of the missclassified images suggests methods for dealing with particular weather features (glare, waves and clouds) would probably help to improve the model. 
 
-Examples of two false negatives with glare:
-![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/2be70f71-d185-44fe-8bca-7d572488f8b4)
+Examples of two false negatives with difficult features:
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/0095e3e9-6043-48f0-bad5-8b6290667a28)
 
 Examples of two false positives with difficult features:
-![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/acd85b7d-1d83-44d4-8fea-441324969cd1)
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/71e125b6-dc48-48eb-a05c-9ccb1c75c181)
+
