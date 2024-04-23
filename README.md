@@ -28,5 +28,4 @@ Examples of two false negatives with glare:
 ![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/2be70f71-d185-44fe-8bca-7d572488f8b4)
 
 Examples of two false positives with difficult features:
-![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/a9b71023-a9e7-46b5-89cb-1c68851ee46f)
-
+![image](https://github.com/rifairbairn/ShipDetection/assets/77961773/acd85b7d-1d83-44d4-8fea-441324969cd1)
